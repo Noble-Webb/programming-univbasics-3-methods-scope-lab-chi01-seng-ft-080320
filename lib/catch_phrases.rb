@@ -9,9 +9,15 @@ def toadstool
 end
 
 def link
-  puts "It's Dangerous To Go Alone! Take This."
+  quest "It's Dangerous To Go Alone! Take This."
+  puts quest
 end 
 
 def all_phrases
   mario = "It's-a me, Mario!"
   puts mario
+  toadstool = 'Thank You Mario! But Our Princess Is In Another Castle!'
+  puts toadstool
+  quest "It's Dangerous To Go Alone! Take This."
+  puts quest
+end 
